@@ -1,0 +1,49 @@
+
+
+.taskList {
+  max-width: 650px;
+  margin: 2px auto;
+  border: 2px solid rgb(221, 108, 108);
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.taskList:hover {
+   background-color: rgb(221, 108, 108);
+   color: white;
+   
+}
+
+.taskList > div > h2 {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.taskList > div > h3 {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  margin: 5px;
+}
+
+.taskList > input {
+  text-align: right;
+  margin-right: 6px;
+}
+
+.trash {
+  font-size: 30px;
+  color: rgb(32, 29, 29);
+  cursor: pointer;
+  transition: color 0.5s;
+  cursor: pointer;
+  margin-inline: 5px;
+}
+
+.trash:hover {
+  color: rgb(61, 224, 20);
+}

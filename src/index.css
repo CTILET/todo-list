@@ -1,13 +1,62 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Dongle", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Vujahday Script", cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  align-items: center;
+  width: 100%;
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.panel-right > input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  height: 39px;
+  margin-right: 10px;
+  font-size: 25px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.panel-right > input:focus {
+  border-color: aqua;
+  border-width: 2px;
+}
+
+.panel-right > button {
+  font-size: 700;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  padding: 7px;
+  font-size: 17px;
+  outline: none;
+}
+
+.panel-right > button:hover {
+  background-color: aqua;
+}
+
+
+.containerovoz{
+  border: 1px solid rgb(85, 84, 84);
+  align-items: center;
+  width: 100%;
+  width: 650px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 650px;
+  margin: 10px auto;
+  border: 2px solid rgb(221, 108, 108);
+  border-radius: 5px;
+  width: 100%;
 }
